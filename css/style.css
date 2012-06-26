@@ -1,0 +1,221 @@
+/* GENERAL */
+body {
+	color: #080808;
+	font-family: helvetica,arial;
+	font-size: 100%;
+	height: 100%;
+	background: #FFF;
+}
+
+a {
+	color: #080808;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FF0099;
+}
+
+header {
+	margin: 0 10% 5% 3%;
+}
+
+header h1 {
+	font-size: 5em;
+	color: #080808;
+}
+
+
+/* STYLES ON CRITERIA PAGES */
+
+.light-bg-container {
+	width: 98%;
+	background: #FFF;
+	height: 97%;
+	position: absolute;
+	top: 1%;
+	left: 0.7%;
+	right: 0.7%;
+	bottom: 1%;
+	margin: 0;
+	border: 5px solid #F0F0F0;
+	-moz-border-radius: 5px !important;
+ 	-webkit-border-radius: 5px !important;
+	border-radius: 5px !important;
+	color: #080808;
+	font-size: 90%;
+}
+
+.light-bg-container a {
+	color: #FF0099;
+	text-decoration: none;
+}
+
+.light-bg-container a:hover {
+	color: #080808;
+	text-decoration: underline;
+}
+
+.light-bg-container h1 a {
+	color: #080808;
+	text-decoration: none;
+}
+
+.light-bg-container h1 a:hover {
+	color: #FF0099;
+	text-decoration: none;
+}
+
+#criteria {
+	padding-left: 0.5em;
+	margin: 0 10%;
+}
+
+#criteria p,#criteria ol {
+	font-style: italic;
+}
+
+#criteria ol li {
+	margin-left: 1em;
+	margin-bottom: 1em;
+	line-height: 1.2em;
+}
+
+ul.criteria-no-style {
+	list-style: none;
+}
+
+ul.criteria-no-style li {
+		line-height: 1.2em;
+		margin-bottom: 1em;
+	}
+	
+	
+/* BADGER FORM */
+
+#badgerForm {
+	width: 80%;
+	margin: 1% 10%;
+}
+
+#badgerForm .formRow {
+	padding: 1em;
+}
+
+#badgerForm label {
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#badgerForm select {
+	background: #FFF;
+	border: 1px solid #E0E0E0;
+	padding: 0.5em;
+}
+
+#badgerForm input {
+	background: #E0E0E0;
+	border:none;
+	color: #080808;
+	height: 2em;
+	margin-right: 2em;
+	width: 35%;
+}
+
+#badgerForm input#name, #badgerForm input#email {
+	width: 20%;
+}
+
+#badgerForm input.submit {
+	border: none;
+	background: #808080;
+	color: #fff;
+	width: 10%;
+	height: 2em;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0;
+}
+
+#badgerForm input.submit:hover {
+	background: #303030;
+	color: #fff;
+}
+
+#badgerForm .required {  
+    font-weight:bold;  
+    color:#FF0099;  
+}
+
+.badge-link-success {
+	width: 50%;
+	color: #1d751d;
+	padding: 0 5em 1em 5em;
+	font-weight: bold;
+}
+
+.badge-link-success a {
+	color: #808080;
+	text-decoration: none;
+}
+
+.badge-link-success a {
+	color: #303030;
+}
+
+.badge-error {
+	width: 50%;
+	color: #990033;
+	padding: 0 5em 0 5em;
+}
+	
+/*GET MY BADGE*/
+
+#badge-container {
+	border: 1px solid #080808;
+	-moz-border-radius: 5px !important;
+ 	-webkit-border-radius: 5px !important;
+	border-radius: 5px !important;
+	margin: 0 25%;
+	width: 50%;
+	background: #F0F0F0;;
+}
+
+.backPackLink {
+	color: #FF0099;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.backPackLink:hover {
+	color: #080808;
+	text-decoration: underline;
+}
+
+.browserSupport {
+	display: none;
+}
+
+.login-info {
+	font-style: italic;
+	font-size: 80%;
+}
+
+#badge-error {
+	display: none;
+}
+
+errMsg {
+	font-style: italic;
+}
+
+#badgeSuccess {
+	display: none;
+}
+
+.js-required {
+	color: #990033;
+	margin: 1em 5em;
+	font-style: italic;
+}
