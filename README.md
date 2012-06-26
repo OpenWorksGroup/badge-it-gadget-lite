@@ -3,7 +3,7 @@ Badge-It-Gadget-Lite
 
 Badge-It Gadget Lite v0.5.0 - Simple scripted system to award and issue badges into Mozilla Open Badges Infrastructure
 
-Copyright (c) 2012 Kerri Lemoie, Codery - gocodery.com
+Copyright (c) 2012 Kerri Lemoie, Codery - [gocodery.com](http://gocodery.com/)
 
 Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
@@ -69,8 +69,8 @@ Instructions
 Other Notes
 ===========
 
-Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. It works best in Firefox and Chrome. Testing in Safari seems unreliable so far in our experience. It doesn't work at all in IE browsers.
+Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. It works best in Firefox and Chrome. Testing in Safari seems unreliable so far in our experience but we'll keep working on it. It doesn't work at all in IE browsers.
 
-Your feedback and questions are welcomed and needed to make this better. Drop an email to hello@gocodery.com or submit to the git hub bugs.
+Your feedback and questions are welcomed and needed to make this better. Drop an email to hello@gocodery.com or submit to the repo issues.
 
-The next version of Badget Gadget will be hardier using a db and forms for badge settings and recording of badges awarded and issued. ETA TBD (but it won't be too long).
+The next version of Badge-It Gadget will be hardier using a db and forms for badge settings and recording of badges awarded and issued. ETA TBD (but it won't be too long).
