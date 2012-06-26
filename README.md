@@ -15,6 +15,7 @@ This is a very simple implementation of awarding and issuing badges. It uses Moz
 References
 ==========
 https://github.com/mozilla/openbadges/wiki/
+
 https://groups.google.com/d/forum/openbadges
 
 
