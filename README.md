@@ -25,11 +25,11 @@ Files
 ============
 There are three directories: css, digital-badges and process-badges
 
-css/
+#css/
 style.css - some styles to get started
 
 
-digital-badges/
+#digital-badges/
 badge-it-gadget-lite-badge-criteria.html - This is an example of a criteria url. Make it your own.
 
 get-my-badge.php - This php script/ html page used to retrieve/issue a badge. 
@@ -42,7 +42,7 @@ record-issued-badges.php - This script is called by the OpenBadges.issue callbac
 
 
 
-process-badges/
+#process-badges/
 .htaccess - ***You want to password protect this directory*** If you don't, anyone can award badges in your site's name. This file is included as a reminder.
 
 badge_records.txt - empty text file to which will be written badges that have been awarded and badges that have been issued to the OBI. This is helpful when tracking who got badges and who issued them to their backpacks.
