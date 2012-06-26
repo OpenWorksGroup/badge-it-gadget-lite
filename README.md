@@ -2,7 +2,9 @@ Badge-It-Gadget-Lite
 ====================
 
 Badge-It Gadget Lite v0.5.0 - Simple scripted system to award and issue badges into Mozilla Open Badges Infrastructure
+
 Copyright (c) 2012 Kerri Lemoie, Codery - gocodery.com
+
 Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
 About
