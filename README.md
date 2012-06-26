@@ -69,7 +69,7 @@ Instructions
 Other Notes
 ===========
 
-Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. It works best in Firefox an Chrome. Testing in Safari seems unreliable so far. It doesn't work at all in IE browsers.
+Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. It works best in Firefox and Chrome. Testing in Safari seems unreliable so far in our experience. It doesn't work at all in IE browsers.
 
 Your feedback and questions are welcomed and needed to make this better. Drop an email to hello@gocodery.com or submit to the git hub bugs.
 

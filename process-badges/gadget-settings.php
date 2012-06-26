@@ -19,8 +19,7 @@ $open_badges_api = "http://beta.openbadges.org/issuer.js";
 $version = "0.5.0";
 
 /*issuer url - this is the domain name of the site that will be issuing the badges. It should be the domain where you're installing the OpenBadgifier. REQUIRED.*/
-//$issuer_url = "http://yourdomain.com";
-$issuer_url = "http://dev.gocodery.com";
+$issuer_url = "http://yourdomain.com";
 
 /*root path - this is the root path of where your process-badges directory is hosted. You SHOULD password protect this directory with something like .htaccess so that the public can't issue badges on your behalf. CHMOD 775 */
 
@@ -28,7 +27,7 @@ $root_path = $_SERVER['DOCUMENT_ROOT']."badge-it-gadget-lite/process-badges/";
 
 /* issuer name  - name of organization or person that is issuing the badges. REQUIRED. */
 
-$issuer_name = "Codery"; //This appears on the badge
+$issuer_name = ""; //This appears on the badge
 
 /*issuer org - Organization for which the badge is being issued. Another example is if a scout badge is being issued, the "name" could be "Boy Scouts" and the "org" could be "Troop #218". OPTIONAL. */
 
