@@ -73,9 +73,9 @@ Instructions
 Other Notes
 ===========
 
-Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. It works best in Firefox and Chrome. Testing in Safari seems unreliable so far in our experience but we'll keep working on it. It doesn't work at all in IE browsers.
+Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. 
 
-If you download from github as a zip or tar file, it will rename the directory as "Codery-badge-it-gadget-lite". Be sure to rename to ***badge-it-gadget-lite***.
+If you download from github as a zip or tar file, it will name the directory as "Codery-badge-it-gadget-lite". Be sure to rename to ***badge-it-gadget-lite***.
 
 Your feedback and questions are welcomed and needed to make this better. Drop an email to hello@gocodery.com or submit to the repo issues.
 
