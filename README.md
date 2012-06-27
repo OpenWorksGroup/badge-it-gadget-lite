@@ -67,7 +67,7 @@ Instructions
 <pre>AddType application/json .json</pre>
 5. In a browser window navigate to www.yourdomain.com/badge-it-gadget-lite/process-badges/index.php
 
-6. Give yourself a badge!! (Really - there's a badge in there for you)
+6. Give yourself a badge!! (Really - there's a badge in there for you.)
 
 
 Other Notes
