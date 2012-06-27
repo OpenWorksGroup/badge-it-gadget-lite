@@ -1,4 +1,4 @@
-Badge-It-Gadget-Lite
+Badge-It Gadget Lite
 ====================
 
 Badge-It Gadget Lite v0.5.0 - Simple scripted system to award and issue badges into Mozilla Open Badges Infrastructure
@@ -26,10 +26,10 @@ These scripts have been tested on a CentOS server running Apache 2.0 and PHP 5.3
 
 Files
 ============
-There are three directories: css, digital-badges and process-badges
+There are three sub-directories of badge-it-gadget-lite: css, digital-badges and process-badges
 
 ######css/
-style.css - some styles to get started
+style.css - Some styles to get started
 
 
 ######digital-badges/
@@ -37,9 +37,9 @@ badge-it-gadget-lite-badge-criteria.html - This is an example of a criteria url.
 
 get-my-badge.php - This php script/ html page used to retrieve/issue a badge. 
 
-images/ - this is the directory where you can save your pre-made badges. Remember they need to be PNG files. We made one for you to start. Don't have any badge images yet? Check this site out: http://www.onlineiconmaker.com 
+images/ - This is the directory where you can save your pre-made badges. Remember they need to be PNG files. We made one for you to start. Don't have any badge images yet? Check this site out: http://www.onlineiconmaker.com 
 
-issued/json/ - this is the directory where the badge json files will be stored
+issued/json/ - This is the directory where the badge json files will be stored
 
 record-issued-badges.php - This script is called by the OpenBadges.issue callback in get-my-badge.php to record issued badges in badge_records.txt
 
@@ -48,11 +48,11 @@ record-issued-badges.php - This script is called by the OpenBadges.issue callbac
 ######process-badges/
 .htaccess - ***You want to password protect this directory*** If you don't, anyone can award badges in your site's name. This file is included as a reminder.
 
-badge_records.txt - empty text file to which will be written badges that have been awarded and badges that have been issued to the OBI. This is helpful when tracking who got badges and who issued them to their backpacks.
+badge_records.txt - Empty text file to which will be written badges that have been awarded and badges that have been issued to the OBI. This is helpful when tracking who got badges and who issued them to their backpacks.
 
 gadget-settings.php - This is where you put in your site and badges settings. Information is provided for each setting.
 
-gadget.php - the script that creates the JSON file, writes to the badge_records.txt file. It's the processing script that awards the badges.  
+gadget.php - The script that creates the JSON file, writes to the badge_records.txt file. It's the processing script that awards the badges.  
 
 index.php: The badger form to award the badge to your earner. Award a badge one by one. When you submit the form, the request is processed by gadget.php which will return a link for your earner to retrieve the badge.
 
@@ -60,7 +60,7 @@ index.php: The badger form to award the badge to your earner. Award a badge one 
 Instructions
 ============
 
-1. Place the badge-it-gadget-lite directory in a public directory on your web host. Ex: www.yourdomain.com/badge-it-gadget-lite (notice case-sensitivity)
+1. Place the badge-it-gadget-lite directory in a public directory on your web host. Ex: www.yourdomain.com/badge-it-gadget-lite
 2. In www.yourdomain.com/process-badges/gadget-settings.php make your settings changes and add your badges.
 3. Set permissions for process-badges/badge_records.txt and the digital-badges/issued/json directory to rwxrwxrwx (chmod 777).
 4. You may need to update your existing .htaccess file in the public root directory of your host (where your index file is) because your host's apache settings may not recognize .json files (your badge assertions). You'll know this to be the case if the issuer api returns a content type error when you issue a badge. In the existing .htaccess file, or create a new one if you don't have one, and add this line:
@@ -75,8 +75,8 @@ Other Notes
 
 Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. It works best in Firefox and Chrome. Testing in Safari seems unreliable so far in our experience but we'll keep working on it. It doesn't work at all in IE browsers.
 
-If you download from github as a zip or tar file, it will rename the directory as "Codery-Badge-It-Gadget-Lite". Be sure to rename to ***badge-it-gadget-lite***.
+If you download from github as a zip or tar file, it will rename the directory as "Codery-badge-it-gadget-lite". Be sure to rename to ***badge-it-gadget-lite***.
 
 Your feedback and questions are welcomed and needed to make this better. Drop an email to hello@gocodery.com or submit to the repo issues.
 
-The next version of Badge-It Gadget will be hardier using a db and forms for badge settings and recording of badges awarded and issued. ETA TBD (but it won't be too long).
+The next version of Badge-It Gadget will be hardier using a db with forms for badge settings and history of badges awarded and issued. ETA TBD (but it won't be too long).
