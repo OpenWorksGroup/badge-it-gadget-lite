@@ -60,8 +60,8 @@ index.php: The badger form to award the badge to your earner. Award a badge one 
 Instructions
 ============
 
-1. Install the badge-it-gadget-lite directory in a public directory in your host files
-2. Make your changes and add your badges to process-badges/gadget-settings.php.
+1. Place the badge-it-gadget-lite directory in a public directory in your host files
+2. In process-badges/gadget-settings.php make your settings changes and add your badges.
 3. In a browser window navigate to badge-it-gadget-lite/process-badges/index.php
 4. Give yourself a badge!! (Really - there's a badge in there for you)
 

@@ -41,11 +41,11 @@ $issuer_contact = "";
 
 $json_dir = $_SERVER['DOCUMENT_ROOT']."badge-it-gadget-lite/digital-badges/issued/json/";
 
-/* badge images directory - Set the path to the directory where your badge images are stored. They should be stored on the same domain as OpenBadifier since the images should be on the issing site. Don't have badge images yet? You can mae some here (note: they must be PNG) - http://www.onlineiconmaker.com/application/  REQUIRED */
+/* badge images directory - Set the path to the directory where your badge images are stored. They should be stored on the same domain as OpenBadifier since the images should be on the issuing site. Don't have badge images yet? You can mae some here (note: they must be PNG) - http://www.onlineiconmaker.com/application/  REQUIRED */
 
 $badge_images_dir = "/badge-it-gadget-lite/digital-badges/images/";
 
-/* badge records file - OpenBadgifier will keep records in a text file of which badges were issued and if they were pushed to the obi. This could easily be extended to use a db later. Nice to have a lightweight solution anyone can use. This file has already been created and is in the dircetory where this settings file is. REQUIRED CHMOD 777*/
+/* badge records file - OpenBadgifier will keep records in a text file of which badges were issued and if they were pushed to the obi. This could easily be extended to use a db later. Nice to have a lightweight solution anyone can use. This file has already been created and is in the directory where this settings file is. REQUIRED CHMOD 777*/
 
 $badge_records_file = "badge_records.txt";
 
