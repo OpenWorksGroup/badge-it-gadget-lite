@@ -13,12 +13,15 @@ Read more about Open Badges Assertions here: https://github.com/mozilla/openbadg
 ***/
 
 /* Issuer API url - REQUIRED. This is Open Badge's hosted issuer API. */
+
 $open_badges_api = "http://beta.openbadges.org/issuer.js";
 
 /*version - REQUIRED. Use "0.5.0" for the beta. */
+
 $version = "0.5.0";
 
 /*issuer url - REQUIRED. This is the domain name of the site that will be issuing the badges. It should be the domain where you're installing the OpenBadgifier.*/
+
 $issuer_url = "http://yourdomain.com";
 
 /*root path - REQUIRED. CHMOD 775. This is the root path of where your process-badges directory is hosted. You SHOULD password protect this directory with something like .htaccess so that the public can't issue badges on your behalf. */

@@ -76,7 +76,7 @@ if( isset($_POST) ){
         $err = '<div class="badge-error">Cannot write to file ($jsonFilePath). Please check your \$json_dir in gadget_settings.php</div>';
    }
 	else { //Sucess message and write badge to badge_records.txt file
-		$msg = '<div class="badge-link-success">Your badge is ready to be issued. Please provide this link to the badge earner: <a href="'.$issuer_url.'/digital-badges/get-my-badge.php?id='.$filename.'">'.$issuer_url.'/badge-it-gadget-lite/digital-badges/get-my-badge.php?id='.$filename.'</a></div>';
+		$msg = '<div class="badge-link-success">Your badge is ready to be issued. Please provide this link to the badge earner: <a href="'.$issuer_url.'/badge-it-gadget-lite/digital-badges/get-my-badge.php?id='.$filename.'">'.$issuer_url.'/badge-it-gadget-lite/digital-badges/get-my-badge.php?id='.$filename.'</a></div>';
 		fclose($handle);
 		
 	//Writes to badge_records.txt file

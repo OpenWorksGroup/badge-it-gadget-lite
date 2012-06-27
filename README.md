@@ -62,8 +62,12 @@ Instructions
 
 1. Place the badge-it-gadget-lite directory in a public directory on your web host. Ex: www.yourdomain.com/badge-it-gadget-lite (notice case-sensitivity)
 2. In www.yourdomain.com/process-badges/gadget-settings.php make your settings changes and add your badges.
-3. In a browser window navigate to badge-it-gadget-lite/process-badges/index.php
-4. Give yourself a badge!! (Really - there's a badge in there for you)
+3. Set permissions for process-badges/badge_records.txt and the digital-badges/issued/json directory to rwxrwxrwx (chmod 777).
+4. You may need to update your existing .htaccess file in the public root directory of your host (where your index file is) because your host's apache settings may not recognize .json files (your badge assertions). In this existing .htaccess file, or create a new one if you don't have one, and add this line:
+<pre>AddType application/json .json</pre>
+5. In a browser window navigate to www.yourdomain.com/badge-it-gadget-lite/process-badges/index.php
+
+6. Give yourself a badge!! (Really - there's a badge in there for you)
 
 
 Other Notes
