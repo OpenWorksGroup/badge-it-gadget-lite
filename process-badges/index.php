@@ -43,7 +43,6 @@ include 'gadget-settings.php';
 			}
 		
 			if ($bf['success']) {
-				unset($_SESSION['bf_returndata']);
 				print $bf['success'];
 			}
 		
@@ -78,6 +77,8 @@ include 'gadget-settings.php';
 			<div class="formRow"><label>Badge Experience URL: </label> <input type="text" name="badge_experience_url" value="<?php print $bf['posted_form_data']['badgeExperienceUrl']?>" ></div>
 			<div class="formRow"><input class="submit" id="submit-button" type="submit" value="Award Badge"/></div>
 		</form>
+		
+		<?php unset($_SESSION['bf_returndata']); ?>
 		
 		</div>
 	

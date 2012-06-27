@@ -60,8 +60,8 @@ index.php: The badger form to award the badge to your earner. Award a badge one 
 Instructions
 ============
 
-1. Place the badge-it-gadget-lite directory in a public directory in your host files
-2. In process-badges/gadget-settings.php make your settings changes and add your badges.
+1. Place the badge-it-gadget-lite directory in a public directory on your web host. Ex: www.yourdomain.com/badge-it-gadget-lite (notice case-sensitivity)
+2. In www.yourdomain.com/process-badges/gadget-settings.php make your settings changes and add your badges.
 3. In a browser window navigate to badge-it-gadget-lite/process-badges/index.php
 4. Give yourself a badge!! (Really - there's a badge in there for you)
 
@@ -70,6 +70,8 @@ Other Notes
 ===========
 
 Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. It works best in Firefox and Chrome. Testing in Safari seems unreliable so far in our experience but we'll keep working on it. It doesn't work at all in IE browsers.
+
+If you download from github as a zip or tar file, it will rename the directory as "Codery-Badge-It-Gadget-Lite". Be sure to rename to ***badge-it-gadget-lite***.
 
 Your feedback and questions are welcomed and needed to make this better. Drop an email to hello@gocodery.com or submit to the repo issues.
 

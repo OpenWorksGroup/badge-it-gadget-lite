@@ -49,7 +49,7 @@ if( isset($_POST) ){
 	$filename = str_rot13($badgeId.'-'. preg_replace("/ /","_",$badgeRecipientName));
 	
 	$jsonFilePath = $json_dir . $filename .'.json';
-	header('Content-Type: application/json');
+
 	$handle = fopen($jsonFilePath, 'w');
 	$fileData = array(
 		'recipient' => "sha256$".$hashed_email,
