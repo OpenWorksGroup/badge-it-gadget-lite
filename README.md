@@ -9,7 +9,7 @@ Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.p
 
 About
 =====
-This is a very simple implementation of awarding and issuing badges. It uses Mozilla's issuer api javascript. Because it writes records to a text file, it really is not meant to be used for issuing many badges on a heavy production site. But because it is so simple, it requires very little set-up. Almost a plug and play. This is a starting point and can easily be modified and scaled. Have fun with badges!!
+This is a very simple implementation of awarding and issuing badges. It uses Mozilla's issuer api javascript. Because it writes records to a text file, it really is not meant to be used for issuing many badges on a heavy production site. But because it is so simple, it requires very little set-up. Almost a plug and play. This is a starting point and can easily be modified and scaled. Have fun with badges!! Say hello and et us know if you're using it at hello@gocodery.com.
 
 
 References
