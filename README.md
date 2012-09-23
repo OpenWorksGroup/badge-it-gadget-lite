@@ -79,4 +79,9 @@ If you download from github as a zip or tar file, it will name the directory as 
 
 Your feedback and questions are welcomed and needed to make this better. Drop an email to hello@gocodery.com or submit to the repo issues.
 
-The next version of Badge-It Gadget will be hardier using a db with forms for badge settings and history of badges awarded and issued. ETA TBD (but it won't be too long).
+The next version of Badge-It Gadget will be hardier using a db with forms for badge settings and history of badges awarded and issued. ETA TBD.
+
+
+In Action
+=========
+[Experiential Learning Studio @ Rhode Island College](https://sites.google.com/site/elsatric/about-badges)
