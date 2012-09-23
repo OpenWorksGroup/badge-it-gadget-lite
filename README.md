@@ -84,4 +84,4 @@ The next version of Badge-It Gadget will be hardier using a db with forms for ba
 
 In Action
 =========
-[Experiential Learning Studio @ Rhode Island College](https://sites.google.com/site/elsatric/about-badges)
+[Experiential Learning Studio @ Rhode Island College](https://sites.google.com/site/elsatric/about-badges/badge-issuer)
