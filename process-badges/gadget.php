@@ -55,13 +55,13 @@ if( isset($_POST) ){
 		'recipient' => "sha256$".$hashed_email,
 		'salt' => $salt,
 		'evidence' => $badgeExperienceURL,
+		'issued_on'=> $date,
 		'badge' => array(
 			'version' => '0.5.0',
 			'name' => $badgeName,
 			'image' => $issuer_url.$badge_images_dir.$badgeImage,
 			'description' => $badgeDescription,
 			'criteria' => $badgeCriteria,
-			'issued_on'=> $date,
 			'expires' => $badgeExpires,
 			'issuer' => array(
 				'origin' => $issuer_url,
