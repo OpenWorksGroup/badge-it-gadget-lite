@@ -65,7 +65,9 @@ if( isset($_POST) ){
 			'expires' => $badgeExpires,
 			'issuer' => array(
 				'origin' => $issuer_url,
-				'name' => $issuer_name
+				'name' => $issuer_name,
+				'org' => $issuer_org,
+				'contact' => $issuer_contact,
 			)
 		)
 	);
