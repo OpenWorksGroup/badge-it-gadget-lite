@@ -86,3 +86,4 @@ In Action
 =========
 [Experiential Learning Studio @ Rhode Island College](https://sites.google.com/site/elsatric/about-badges/badge-issuer)
 [Badge Bingo](http://badgebingo.com)
+[IPT EdTec](http://iptedtec.org/)
