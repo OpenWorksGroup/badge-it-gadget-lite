@@ -9,7 +9,7 @@ Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.p
 
 About
 =====
-This is a very simple implementation of awarding and issuing badges. It uses Mozilla's issuer api javascript. Because it writes records to a text file, it really is not meant to be used for issuing many badges on a heavy production site. But because it is so simple, it requires very little set-up. Almost a plug and play. This is a starting point and can easily be modified and scaled. Have fun with badges!! Say hello and et us know if you're using it at hello@gocodery.com.
+This is a very simple implementation of awarding and issuing badges. It uses Mozilla's issuer api javascript. Because it writes records to a text file, it really is not meant to be used for issuing many badges on a heavy production site. But because it is so simple, it requires very little set-up. Almost a plug and play. This is a starting point and can easily be modified and scaled. Have fun with badges!! Say hello and let us know if you're using it at hello@gocodery.com.
 
 
 References
@@ -17,6 +17,8 @@ References
 https://github.com/mozilla/openbadges/wiki/
 
 https://groups.google.com/d/forum/openbadges
+
+https://groups.google.com/forum/#!forum/openbadges-dev
 
 
 Requirements
@@ -73,6 +75,8 @@ Instructions
 Other Notes
 ===========
 
+Open Badges 1.0 launched 3/13/2013!! This version of the gadget uses the assertion structure for the beta backpack. It will work with Open Badges 1.0 and hope to update it soon.
+
 Badge-It Gadget Lite is entirely reliant on javascript for badges to be issued. 
 
 If you download from github as a zip or tar file, it will name the directory as "Codery-badge-it-gadget-lite". Be sure to rename to ***badge-it-gadget-lite***.
@@ -89,3 +93,6 @@ In Action
 [Badge Bingo](http://badgebingo.com)
 
 [IPT EdTec](http://iptedtec.org/)
+
+[Codery Open Music Mixtape Badge](http://gocodery.com/open-music-mixtape)
+

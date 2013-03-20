@@ -28,7 +28,7 @@ if( isset($_POST) ){
 	$badgeId 							= $_POST['badge_info'];
 	$badgeRecipientName 	= $_POST['badge_recipient_name'];
 	$badgeRecipientEmail 	= $_POST['badge_recipient_email'];
-	$badgeExperienceURL 	= $_POST['badge_experience_url'];
+	$badgeEvidenceURL 		= $_POST['badge_evidence_url'];
 	$badgeName 						= $badges_array[$badgeId]['name'];
 	$badgeImage						= $badges_array[$badgeId]['image'];
 	$badgeDescription			= $badges_array[$badgeId]['description'];
@@ -54,7 +54,7 @@ if( isset($_POST) ){
 	$fileData = array(
 		'recipient' => "sha256$".$hashed_email,
 		'salt' => $salt,
-		'evidence' => $badgeExperienceURL,
+		'evidence' => $badgeEvidenceURL,
 		'issued_on'=> $date,
 		'badge' => array(
 			'version' => '0.5.0',
@@ -88,8 +88,8 @@ if( isset($_POST) ){
 		$badgeHandle = fopen($badgeRecordsFile, 'a'); 
 		$badge_data = "BADGE AWARDED: ".$date.", ".$badgeName.", ".$jsonFilePath.", ".$badgeRecipientName.", ".$badgeRecipientEmail.", ".$badgeCriteria;
 	
-		if (! empty($badgeExperienceURL)) {
-			$badge_data .= ", ".$badgeExperienceURL;
+		if (! empty($badgeEvidenceURL)) {
+			$badge_data .= ", ".$badgeEvidenceURL;
 		}
 	
 		$badge_data .= "\n";
@@ -109,7 +109,7 @@ if( isset($_POST) ){
 			'badgeId' => $badgeId,
 			'badgeRecipient' => $badgeRecipientName,
 			'badgeRecipientEmail' => $badgeRecipientEmail,
-			'badgeExperienceUrl' => $badgeExperienceURL
+			'badgeEvidenceUrl' => $badgeEvidenceURL
 			),
 		'success' => $msg,
 		'errors' => $err

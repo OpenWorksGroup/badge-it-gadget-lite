@@ -74,7 +74,7 @@ include 'gadget-settings.php';
 			<div class="formRow"><?php print $badge_select; ?></div>
 			<div class="formRow"><label>Recipient Name:<span class="required">*</span></label> <input type="text" id="name" name="badge_recipient_name" value="<?php print $bf['posted_form_data']['badgeRecipient']?>" required></div>
 			<div class="formRow"><label>Recipient Email:<span class="required">*</span></label> <input type="text" id="email" name="badge_recipient_email" value="<?php print $bf['posted_form_data']['badgeRecipientEmail']?>" required></div>
-			<div class="formRow"><label>Badge Experience URL: </label> <input type="text" name="badge_experience_url" value="<?php print $bf['posted_form_data']['badgeExperienceUrl']?>" ></div>
+			<div class="formRow"><label>Badge Evidence URL: </label> <input type="text" name="badge_evidence_url" value="<?php print $bf['posted_form_data']['badgeEvidenceUrl']?>" ></div>
 			<div class="formRow"><input class="submit" id="submit-button" type="submit" value="Award Badge"/></div>
 		</form>
 		

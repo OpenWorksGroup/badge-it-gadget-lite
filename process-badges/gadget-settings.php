@@ -38,7 +38,7 @@ $issuer_name = ""; //This appears on the badge
 
 $issuer_org = "";
 
-/* issuer contact - OPTIONAL. A human-monitored email address associated with the issuer. */
+/* issuer contact - REQUIRED. A human-monitored email address associated with the issuer. */
 
 $issuer_contact = "";
 
